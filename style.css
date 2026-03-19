@@ -66,19 +66,12 @@ section {
 }
 
 /* Ajuste individual por tipo de producto */
-.products img.torta-chocolate {
-  width: 250px; /* más pequeña */
-  height: auto;
-}
-
-.products img.cheesecake {
-  width: 320px; /* más grande */
-  height: auto;
-}
-
-.products img.lemon-pie {
-  width: 250px; /* igual a torta de chocolate */
-  height: auto;
+.products img {
+  width: 100%;
+  max-width: 260px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .products p {
